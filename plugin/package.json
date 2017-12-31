@@ -1,0 +1,27 @@
+{
+    "name": "webpack-demo-plugin",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jasonsoop/webpack-demo.git"
+    },
+    "keywords": [
+        "webpack demo"
+    ],
+    "author": "jasonsoop <jasonsoop@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jasonsoop/webpack-demo/issues"
+    },
+    "homepage": "https://github.com/jasonsoop/webpack-demo#readme",
+    "devDependencies": {
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "style-loader": "^0.19.1",
+        "webpack": "^3.10.0"
+    }
+}
